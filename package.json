@@ -59,7 +59,8 @@
     "grunt-mocha-hack": "latest",
     "grunt-text-replace": "latest",
     "istanbul": "latest",
-    "shelljs": "latest"
+    "shelljs": "latest",
+    "yargs": "latest"
   },
   "bundleDependencies": [
     "gh-apps",
