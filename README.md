@@ -3,6 +3,9 @@ grasshopper
 
 Grasshopper Event Engine
 
+# Build status
+[![Build Status](https://travis-ci.org/CUL-DigitalServices/grasshopper.svg?branch=master)](https://travis-ci.org/CUL-DigitalServices/grasshopper)
+
 # Setup
 
 This documentation assumes you're running OS X with homebrew.
