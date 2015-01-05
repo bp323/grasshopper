@@ -65,7 +65,7 @@
     "grunt-mocha-hack": "latest",
     "grunt-text-replace": "latest",
     "istanbul": "latest",
-    "request": "2.47.0",
+    "request": "latest",
     "shelljs": "latest",
     "xml2js": "latest"
   },
