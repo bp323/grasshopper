@@ -50,10 +50,11 @@
     "passport": "latest",
     "passport-local": "latest",
     "pg": "latest",
+    "pg-hstore": "latest",
     "readdirp": "latest",
     "restjsdoc": "latest",
     "request": "latest",
-    "sequelize": "2.0.0-rc6",
+    "sequelize": "latest",
     "validator": "1.1.3",
     "yargs": "latest"
   },
