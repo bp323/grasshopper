@@ -1,7 +1,7 @@
 {
   "name": "grasshopper",
   "description": "Grasshopper Event Engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Fronteer LTD"
   },
@@ -63,6 +63,7 @@
   "devDependencies": {
     "awssum-amazon-s3": "latest",
     "coveralls": "latest",
+    "grasshopper-release-tools": "git://github.com/fronteerio/grasshopper-release-tools",
     "grunt": "latest",
     "grunt-cli": "latest",
     "grunt-contrib-clean": "latest",
