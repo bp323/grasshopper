@@ -61,7 +61,7 @@
     "readdirp": "latest",
     "restjsdoc": "latest",
     "request": "latest",
-    "sequelize": "latest",
+    "sequelize": "2.1.3",
     "validator": "1.1.3",
     "xml-escape": "latest",
     "yargs": "latest"
