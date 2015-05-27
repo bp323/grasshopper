@@ -76,6 +76,7 @@ module.exports = function(grunt) {
                 'options': {
                     'timeout': MOCHA_TIMEOUT,
                     'ignoreLeaks': false,
+                    'fullStackTrace': true,
                     'reporter': 'spec',
                     'grep': mocha_grep,
                     'bail': false,
@@ -142,7 +143,7 @@ module.exports = function(grunt) {
     });
 
     // Override default test task to use mocha-hack
-    grunt.registerTask('test', ['check-style', 'mocha-hack']);
+    grunt.registerTask('test', ['mocha-hack']);
 
     // Make a task for running tests on a single module
     grunt.registerTask('test-module', 'Test a single module', function(module) {
@@ -234,5 +235,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-text-replace');
 
     // Default task.
-    grunt.registerTask('default', ['test']);
+    grunt.registerTask('default', ['check-style', 'test']);
 };
